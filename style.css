@@ -76,6 +76,34 @@ section a{
     margin-top: 10px;
 }
 
+@media (max-width: 900px){
+    main{
+        padding: 10px;
+    }
+
+    section{
+        margin: 15px;
+        padding: 22px;
+    }
+
+    h1{
+        font-size: 32px;
+    }
+
+    h2{
+        font-size: 24px;
+    }
+
+    .project-card{
+        padding: 24px;
+    }
+
+    section a{
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+}
+
 @media (max-width: 600px) {
     body{
         font-size: 16px;
